@@ -5,25 +5,24 @@ import java.util.concurrent.atomic.AtomicReference;
 
 public class JuegoRio {
     static ArrayList<String> rioIzq = new ArrayList<>(Arrays.asList("Caperucita", "Lobo", "Uva"));
-    static ArrayList<String> rioDer = new ArrayList<>(Arrays.asList("Obser"));
+    static ArrayList<String> rioDer = new ArrayList<>(Arrays.asList("Observador"));
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-
-        System.out.println();
-        int opcion = 0;
+        System.out.println("Rio izquierda");
+        rioIzq.forEach(e-> System.out.printf(e+" "));
+        System.out.println("\nRio derecha");
+        rioDer.forEach(e-> System.out.printf(e+" "));
         do {
             realizarJugada();
+            verificarJugada(rioIzq);
         }
         while (verificarJugada(rioIzq) && verificarJugada(rioDer));
     }
 
     private static void realizarJugada() {
         int opcion;
-        System.out.println("1. MOVER CAPERUCITA");
-        System.out.println("2. MOVER UVA");
-        System.out.println("3. MOVER LOBO");
-        System.out.println("0. SALIR");
+        System.out.println("\n1. MOVER CAPERUCITA\n2. MOVER UVA\n3. MOVER LOBO\n0. SALIR");
         opcion = scanner.nextInt();
         switch (opcion) {
             case 1 -> mover("Caperucita");
@@ -38,6 +37,7 @@ public class JuegoRio {
 
         if (desplegarSegundoMenu()){
             cruzarRioHaciaDerecha(actor);
+            return;
         }
         cruzarRioHaciaIzquierda(actor);
 
@@ -60,9 +60,8 @@ public class JuegoRio {
         } else {
             System.out.println("No se puede realizar movimiento");
         }
-        //rioIzq.forEach(s-> System.out.println(s));
         verificarJugada(rioDer);
-        verificarJugada(rioIzq);
+        realizarJugada();
     }
 
     public static void cruzarRioHaciaDerecha(String actor) {
@@ -73,9 +72,8 @@ public class JuegoRio {
         } else {
             System.out.println("No se puede realizar movimiento");
         }
-        //rioDer.forEach(s-> System.out.println(s));
-        verificarJugada(rioIzq);
         verificarJugada(rioDer);
+        realizarJugada();
     }
 
     public static boolean verificarEstado(ArrayList<String> actores, String actor) {
@@ -87,7 +85,6 @@ public class JuegoRio {
             System.out.println("GANASTE");
             System.exit(0);
         }
-        realizarJugada();
         if (actores.contains("Caperucita") && actores.contains("Uva")) {
             return false;
         } else return !actores.contains("Lobo") || !actores.contains("Caperucita");
