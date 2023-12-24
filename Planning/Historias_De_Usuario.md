@@ -1,17 +1,10 @@
-<center> 
-    <font size = 6> Escuela Politécnica Nacional </font> 
-    </center>
-    
-<center> 
-<font size = 6> Facultad de Ingeniería en Sistemas </font>
-     </center>
-     
-<center> 
-<font size = 6> Metodologías Ágiles </font> 
-    </center>
-    <br>
+<h1 align="center">
+    Escuela Politécnica Nacional<br>
+    Facultad de Ingeniería en Sistemas<br>
+    Metodologías Ágiles<br>
+</h1>
 
-<font size = 4> Integrantes - Grupo 3: </font> 
+### Integrantes - Grupo 3
 
 Guilca Miguel  
 Joel Guingla  
@@ -19,8 +12,6 @@ Stefano Landázuri
 Juan Pablo Obregon  
 Cristofer Paucar  
 Kenny Pinchao
-
-
 
 ## Historias de Usuario - Proyecto JuegoRio
 
@@ -36,7 +27,7 @@ Kenny Pinchao
 
 **Criterios de Aceptación:**
 
-1. Ejecutar la aplicación. 
+1. Ejecutar la aplicación.
 2. Mostrar un menú con los personajes disponibles.
 
 ---
@@ -69,7 +60,7 @@ Kenny Pinchao
 
 **Criterios de Aceptación:**
 
-1. Mostrar un menú con los personajes disponibles. 
+1. Mostrar un menú con los personajes disponibles.
 2. Permitir al jugador elegir un segundo personaje para cruzar junto al Observador.
 
 ---
@@ -86,7 +77,7 @@ Kenny Pinchao
 
 **Criterios de Aceptación:**
 
-1. Validar las combinaciones de personajes. 
+1. Validar las combinaciones de personajes.
 1. Mostrar el menú principal (combinaciones válidas), o un mensaje de derrota y finalizar el juego (combinaciones no válidas).
 
 ---
@@ -104,5 +95,3 @@ Kenny Pinchao
 **Criterios de Aceptación:**
 
 1. Mostrar un mensaje de victoria y finalizar el juego.
-
----
