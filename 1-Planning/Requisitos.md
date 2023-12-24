@@ -13,7 +13,7 @@ Juan Pablo Obregon
 Cristofer Paucar  
 Kenny Pinchao
 
-## Requisitos del Sistema - Proyecto JuegoRio
+# Requisitos del Sistema - Proyecto JuegoRio
 
 ### Requisitos Funcionales
 
