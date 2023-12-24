@@ -19,27 +19,19 @@ Kenny Pinchao
 
 ### Nomenclatura de Variables:
 
-1. **Jugadores:**
-   - Se utilizará nombres descriptivos para las variables que representan a los jugadores.
-   - Ejemplo: `PlayerObservador`, `PlayerLobo`, `PlayerCaperucita`, `PlayerUvas`.
+1. **Elementos del juego:**
+   - Se utilizará nombres descriptivos para las variables que representan a los elementos del juego.
+   - Ejemplo: `rioIzquierda`, `animacionHaciaDerecha`,etc.
 
-2. **Canoa:**
-   - Se utilizará un nombre claro y conciso para la variable que representa la canoa.
-   - Ejemplo: `canoa`.
-
-3. **Estados del Juego:**
-   - Si es necesario se utilizará variables para representar estados del juego, usa nombres explicativos.
-   - Ejemplo: `estadoDelJuego`, `jugadoresEnElBarco`, etc.
+2. **Estados del Juego:**
+   - Si es necesario se utilizará nombres explicativos en los métodos para representar estados del juego.
+   - Ejemplo: `pausa()`, `realizarJugada()`, etc.
 
 ### Comentarios:
 
 1. **Comentarios Explicativos:**
    - Se incluirá comentarios explicativos cuando sea necesario para aclarar el propósito de una sección de código.
-   - Ejemplo: `// Mover jugadores al otro lado del río`.
-
-2. **Comentarios de Autoría:**
-   - Se incluirá comentarios de autoría para indicar quién escribió una parte específica del código, especialmente en colaboraciones.
-   - Ejemplo: `// Autor: [Tu Nombre]`.
+   - Ejemplo: `// Simula un trabajo de medio segundo`.
 
 ### Estructura del Código:
 
@@ -55,22 +47,12 @@ Kenny Pinchao
      import mi.paquete.clases.*;
      ```
 
-### Prácticas de Nomenclatura:
-
-1. **Variables Descriptivas:**
-   - Se eligirá nombres de variables que describan claramente su propósito y contenido.
-   - Ejemplo: `observadorEnBarco`, `posicionInicialCaperucita`.
-
-2. **Constantes en Mayúsculas:**
-   - Se usará mayúsculas para nombrar constantes y separa palabras con guiones bajos.
-   - Ejemplo: `LIMITE_CANOA`, `RESTRICCION_LOBO_CAPERUCITA`.
-
 ### Control de Versiones:
 
 1. **Comentarios de Confirmación:**
    - Se incluirá comentarios claros al confirmar cambios para explicar el propósito de la confirmación.
    - Ejemplo: `git commit -m "Agrega lógica de movimiento de jugadores"`.
 
-2. **Ramas Explícitas:**
-   - Se utilizará ramas con nombres descriptivos para nuevos desarrollos o correcciones.
-   - Ejemplo: `feature/nueva-logica-juego`, `bugfix/corregir-validaciones`.
+2. **Ramas de desarrollo:**
+   - Se utilizará ramas aparte, en las que cada desarrollador podrá probar, arreglar o agregar aspectos de todo tipo al proyecto.
+   - Ejemplo: `dev-joel`.
