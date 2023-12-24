@@ -13,7 +13,7 @@ Juan Pablo Obregon
 Cristofer Paucar  
 Kenny Pinchao
 
-## Historias de Usuario - Proyecto JuegoRio
+# Historias de Usuario - Proyecto JuegoRio
 
 ### Historia de Usuario 1 - Ver Menú Principal al Iniciar el Juego
 
