@@ -60,8 +60,7 @@ public class JuegoRio {
         } else {
             System.out.println("No se puede realizar movimiento");
         }
-        verificarJugada(rioDer);
-        realizarJugada();
+
     }
 
     public static void cruzarRioHaciaDerecha(String actor) {
@@ -72,8 +71,7 @@ public class JuegoRio {
         } else {
             System.out.println("No se puede realizar movimiento");
         }
-        verificarJugada(rioDer);
-        realizarJugada();
+
     }
 
     public static boolean verificarEstado(ArrayList<String> actores, String actor) {
@@ -81,13 +79,21 @@ public class JuegoRio {
     }
 
     public static boolean verificarJugada(ArrayList<String> actores) {
-        if (rioDer.contains("Caperucita")&& rioDer.contains("Uva") && rioDer.contains("Lobo")){
+        if (rioDer.contains("Caperucita") && rioDer.contains("Uva") && rioDer.contains("Lobo")) {
             System.out.println("GANASTE");
             System.exit(0);
         }
-        if (actores.contains("Caperucita") && actores.contains("Uva")) {
+
+        if (actores.contains("Caperucita") && actores.contains("Uva") && actores.size() == 2) {
+            System.out.println("La Caperucita se ha comido las uvas, has perdido!");
             return false;
-        } else return !actores.contains("Lobo") || !actores.contains("Caperucita");
+        } else {
+            if (actores.contains("Caperucita") && actores.contains("Lobo") && actores.size() == 2) {
+                System.out.println("El lobo se ha comido a Caperucita, has perdido!");
+                return false;
+            }
+        }
+        return true;
 
     }
 
@@ -153,7 +159,7 @@ public class JuegoRio {
     }
     private static void pausa() {
         try {
-            Thread.sleep(500); // Simula un trabajo de medio segundo
+            Thread.sleep(250); // Simula un trabajo de medio segundo
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
