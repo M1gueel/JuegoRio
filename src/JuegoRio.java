@@ -7,6 +7,9 @@ public class JuegoRio {
     static ArrayList<String> rioDerecha = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
     static boolean salir = false;
+    static boolean booleanRioIzquierda = true;
+    static boolean booleanRioDerecha = true;
+
     public static void main(String[] args) {
         System.out.println("Rio izquierda");
         rioIzquierda.forEach(e -> System.out.printf(e + " "));
@@ -15,7 +18,7 @@ public class JuegoRio {
         do {
             realizarJugada();
         }
-        while (verificarJugada(rioIzq) && verificarJugada(rioDer));
+        while (booleanRioIzquierda && booleanRioDerecha);
     }
 
     private static void realizarJugada() {
@@ -57,6 +60,7 @@ public class JuegoRio {
         } else {
             System.out.println("No se puede realizar movimiento");
         }
+        booleanRioDerecha = verificarJugada(rioDerecha);
     }
 
     public static void cruzarRioHaciaDerecha(String actor) {
