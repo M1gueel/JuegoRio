@@ -36,7 +36,6 @@ Kenny Pinchao
 ### Estructura del Código:
 
 1. **Modularización:**
-   - Se dividirá el código en funciones o clases para mejorar la legibilidad y la mantenibilidad.
    - Ejemplo: Separa la lógica del menú principal, la lógica del juego, etc.
 
 2. **Organización de Importaciones:**
