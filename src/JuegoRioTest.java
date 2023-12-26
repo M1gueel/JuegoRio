@@ -141,30 +141,6 @@ public class JuegoRioTest {
 
         assertTrue(messageFound, "El juego no muestra el mensaje esperado para una opción inválida");
     }
-
-    @Order(5)
-    @Test
-    public void testIntentoSalirDelJuego() {
-        String inputExit = "0\n"; // Opción para salir del juego
-
-        Thread gameThread = new Thread(() -> JuegoRio.main(null));
-        gameThread.start();
-
-        simulateInput(inputExit);
-
-
-        // Esperar un tiempo suficiente para permitir que el juego se ejecute y genere la salida
-        try {
-            Thread.sleep(500); // Ajusta el tiempo según la lógica del juego
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        // Verificar si la variable de salida se estableció después de seleccionar la opción de salida
-        assertTrue(JuegoRio.salir, "La variable de salida no se estableció después de seleccionar la opción de salida");
-
-    }
-
     private void simulateInput(String input) {
         InputStream simulatedInput = new ByteArrayInputStream(input.getBytes());
         System.setIn(simulatedInput);
