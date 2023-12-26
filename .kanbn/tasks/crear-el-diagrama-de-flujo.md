@@ -10,4 +10,4 @@ started: 2023-12-24T00:00:00.000Z
 completed: 2023-12-26T02:30:53.262Z
 ---
 
-# Crear el diagrama de clases
+# Crear el diagrama de flujo

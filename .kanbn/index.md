@@ -20,6 +20,6 @@ completedColumns:
 - [realizar-los-casos-de-uso](tasks/realizar-los-casos-de-uso.md)
 - [crear-el-road-map-de-la-app](tasks/crear-el-road-map-de-la-app.md)
 - [crear-el-documento-de-prácticas-de-códificación-propia-de-la-app](tasks/crear-el-documento-de-prácticas-de-códificación-propia-de-la-app.md)
-- [crear-el-diagrama-de-clases](tasks/crear-el-diagrama-de-clases.md)
+- [crear-el-diagrama-de-flujo](tasks/crear-el-diagrama-de-flujo.md)
 - [codificación-de-la-app](tasks/codificación-de-la-app.md)
 - [crear-los-casos-de-prueba](tasks/crear-los-casos-de-prueba.md)
