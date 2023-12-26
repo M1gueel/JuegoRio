@@ -4,7 +4,6 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
-import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -43,8 +42,8 @@ public class JuegoRioTest {
             e.printStackTrace();
         }
 
-        assertTrue(JuegoRio.rioDer.contains("Caperucita"));
-        assertFalse(JuegoRio.rioIzq.contains("Caperucita"));
+        assertTrue(JuegoRio.rioDerecha.contains("Caperucita"));
+        assertFalse(JuegoRio.rioIzquierda.contains("Caperucita"));
         try {
             gameThread.join();
         } catch (InterruptedException e) {
@@ -63,8 +62,8 @@ public class JuegoRioTest {
 
         simulateInput(inputSteps);
 
-        assertTrue(JuegoRio.rioIzq.contains("Uva"));
-        assertFalse(JuegoRio.rioDer.contains("Uva"));
+        assertTrue(JuegoRio.rioIzquierda.contains("Uva"));
+        assertFalse(JuegoRio.rioDerecha.contains("Uva"));
         /*
         // Simula la salida del juego después de la prueba
         String exitInput = "0\n";
@@ -96,7 +95,7 @@ public class JuegoRioTest {
         }
 
         // Verificar si el juego muestra el mensaje de victoria esperado
-        assertTrue(JuegoRio.rioDer.contains("Caperucita") && JuegoRio.rioDer.contains("Uva") && JuegoRio.rioDer.contains("Lobo"),
+        assertTrue(JuegoRio.rioDerecha.contains("Caperucita") && JuegoRio.rioDerecha.contains("Uva") && JuegoRio.rioDerecha.contains("Lobo"),
                 "El juego no muestra el mensaje de victoria esperado");
 
 
