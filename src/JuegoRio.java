@@ -5,15 +5,11 @@ public class JuegoRio {
     static ArrayList<String> rioIzquierda = new ArrayList<>(Arrays.asList("Caperucita", "Lobo", "Uva"));
     static ArrayList<String> rioDerecha = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
-    static boolean salir = false;
-    static boolean booleanRioIzquierda = true;
-    static boolean booleanRioDerecha = true;
-
+    static boolean booleanRioIzquierda = true, booleanRioDerecha = true;
     public static void main(String[] args) {
         System.out.println("Caperucita Lobo Uva" + "\\__/--------" + "");
         do { realizarJugada(); } while (booleanRioIzquierda && booleanRioDerecha);
     }
-
     private static void realizarJugada() {
         System.out.println("\n1. MOVER CAPERUCITA\n2. MOVER UVA\n3. MOVER LOBO\n0. SALIR");
         int opcion = scanner.nextInt();
@@ -23,16 +19,13 @@ public class JuegoRio {
             default -> System.out.println("Ingresa una opción válida");
         }
     }
-
     private static void mover(String actor) {
         if (desplegarSegundoMenu()) cruzarRioHaciaDerecha(actor);else cruzarRioHaciaIzquierda(actor);
     }
-
     private static boolean desplegarSegundoMenu() {
         System.out.println("1.MOVER A LA DERECHA\n-1.MOVER A LA IZQUIERDA\n");
         return scanner.nextInt() >= 1;
     }
-
     public static void cruzarRioHaciaIzquierda(String actor) {
         if (verificarEstado(rioDerecha, actor)) {
             rioIzquierda.add(rioDerecha.remove(rioDerecha.indexOf(actor)));
@@ -40,7 +33,6 @@ public class JuegoRio {
         } else System.out.println("No se puede realizar movimiento");
         booleanRioDerecha = verificarJugada(rioDerecha);
     }
-
     public static void cruzarRioHaciaDerecha(String actor) {
         booleanRioDerecha = verificarJugada(rioDerecha);
         if (booleanRioDerecha) {
@@ -50,11 +42,7 @@ public class JuegoRio {
             booleanRioIzquierda = verificarJugada(rioIzquierda);
         }
     }
-
-    public static boolean verificarEstado(ArrayList<String> actores, String actor) {
-        return actores.contains(actor);
-    }
-
+    public static boolean verificarEstado(ArrayList<String> actores, String actor) {return actores.contains(actor);}
     public static boolean verificarJugada(ArrayList<String> actores) {
         if (actores.size() == 2) {
             if ((actores.contains("Caperucita") && actores.contains("Uva")) || (actores.contains("Caperucita") && actores.contains("Lobo"))) {
@@ -64,7 +52,6 @@ public class JuegoRio {
         }
         return true;
     }
-
     public static void barcoMovimiento(int desplazamiento, char actor) {
         ArrayList<String> animacionHaciaDerecha = new ArrayList<>(Arrays.asList("\\", "O", String.valueOf(actor), "/", "_", "_", "_", "_", "_", "_", "_", "_"));
         ArrayList<String> animacionHaciaIzquierda = new ArrayList<>(Arrays.asList("_", "_", "_", "_", "_", "_", "_", "_", "\\", "O", String.valueOf(actor), "/"));
