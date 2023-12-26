@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.ArrayList;import java.util.Arrays;import java.util.Scanner;
 public class JuegoRio {
     static ArrayList<String> rioIzquierda = new ArrayList<>(Arrays.asList("Caperucita", "Lobo", "Uva"));
     static ArrayList<String> rioDerecha = new ArrayList<>();
