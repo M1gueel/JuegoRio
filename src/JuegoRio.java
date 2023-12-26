@@ -103,6 +103,7 @@ public class JuegoRio {
                 animacionHaciaDerecha.forEach(e -> animacion.append(e).append(" "));
                 animacionHaciaDerecha.remove(animacionHaciaDerecha.size() - 1);
                 animacionHaciaDerecha.add(0, "_");
+                System.out.print(rioIzquierda+" "+animacion+" "+rioDerecha);
                 animacion.setLength(0);
                 pausa();
                 System.out.print("\r");
