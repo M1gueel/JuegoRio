@@ -1,0 +1,21 @@
++----------------------------------------------------------------------------+
+|          <<class>>                                                         |
+|          JuegoRio                                                          |
++----------------------------------------------------------------------------+
+| -rioIzquierda: ArrayList<String>                                           |
+| -rioDerecha: ArrayList<String>                                             |
+| -scanner: Scanner                                                          |
+| -booleanRioIzquierda: boolean                                              |
+| -booleanRioDerecha: boolean                                                |
++----------------------------------------------------------------------------+
+| +main(args: String[]): void                                                |
+| -realizarJugada(): void                                                    |
+| -mover(actor: String): void                                                |
+| -desplegarSegundoMenu(): boolean                                           |
+| +cruzarRioHaciaIzquierda(actor: String): void                              |
+| +cruzarRioHaciaDerecha(actor: String): void                                |
+| +verificarEstado(actores: ArrayList<String>, actor: String): boolean       |
+| +verificarJugada(actores: ArrayList<String>): boolean                      |
+| +barcoMovimiento(desplazamiento: int, actor: char): void                   |
+| -pausa(): void                                                             |
++----------------------------------------------------------------------------+
