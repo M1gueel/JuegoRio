@@ -137,8 +137,8 @@
     },
     {
       "type": "text",
-      "version": 159,
-      "versionNonce": 1132001449,
+      "version": 160,
+      "versionNonce": 294712486,
       "isDeleted": false,
       "id": "kTaqT9j_Wav2Fi75N6g_3",
       "fillStyle": "solid",
@@ -158,7 +158,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512715,
+      "updated": 1704670501962,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -169,12 +169,12 @@
       "containerId": null,
       "originalText": "Instrucciones del Juego \"Cruce del Río\"",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 76,
-      "versionNonce": 120521319,
+      "version": 77,
+      "versionNonce": 1134727354,
       "isDeleted": false,
       "id": "lqZX5z03dQrat-kWS0FM3",
       "fillStyle": "solid",
@@ -194,7 +194,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512717,
+      "updated": 1704670501972,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -205,12 +205,12 @@
       "containerId": null,
       "originalText": "¡Bienvenido al juego \"Cruce del Río\"! Tu objetivo es ayudar a los personajes a cruzar el río de manera segura siguiendo ciertas reglas. Aquí tienes las instrucciones:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 102,
-      "versionNonce": 151387017,
+      "version": 103,
+      "versionNonce": 706179046,
       "isDeleted": false,
       "id": "HrKKHmn01LJ9o6-fSVwF2",
       "fillStyle": "solid",
@@ -230,7 +230,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512717,
+      "updated": 1704670501973,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -241,12 +241,12 @@
       "containerId": null,
       "originalText": "Objetivo:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 198,
-      "versionNonce": 1863327111,
+      "version": 199,
+      "versionNonce": 960784762,
       "isDeleted": false,
       "id": "NvcZkFzW2mWI3_vTCahNQ",
       "fillStyle": "solid",
@@ -266,7 +266,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512718,
+      "updated": 1704670501976,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -277,12 +277,12 @@
       "containerId": null,
       "originalText": "Mueve a los 3 personajes (Lobo, Caperucita y Uvas) de un lado del río al otro utilizando una canoa. Todos los personajes deben cruzar el río con éxito.",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 165,
-      "versionNonce": 1605345897,
+      "version": 166,
+      "versionNonce": 984384294,
       "isDeleted": false,
       "id": "0p26INI8kEwtEr6IrZouQ",
       "fillStyle": "solid",
@@ -302,7 +302,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512718,
+      "updated": 1704670501977,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -313,12 +313,12 @@
       "containerId": null,
       "originalText": "Reglas:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 208,
-      "versionNonce": 1851839655,
+      "version": 209,
+      "versionNonce": 1991060026,
       "isDeleted": false,
       "id": "yuy_zU9kO4mQbdyXavU-b",
       "fillStyle": "solid",
@@ -338,7 +338,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512719,
+      "updated": 1704670501979,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -349,12 +349,12 @@
       "containerId": null,
       "originalText": "La Canoa:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 358,
-      "versionNonce": 1145138505,
+      "version": 359,
+      "versionNonce": 1975332454,
       "isDeleted": false,
       "id": "mdzlemuqd2DKmHjcATz38",
       "fillStyle": "solid",
@@ -374,7 +374,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512719,
+      "updated": 1704670501980,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -385,12 +385,12 @@
       "containerId": null,
       "originalText": "La canoa solo puede llevar a dos participantes a la vez.",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 451,
-      "versionNonce": 751675335,
+      "version": 452,
+      "versionNonce": 851432186,
       "isDeleted": false,
       "id": "8840Y5T65wkQLf62wpObo",
       "fillStyle": "solid",
@@ -410,7 +410,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512719,
+      "updated": 1704670501982,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -421,12 +421,12 @@
       "containerId": null,
       "originalText": "La canoa debe tener al menos un ocupante para cruzar el río, además del observador.\n",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 42
     },
     {
       "type": "text",
-      "version": 407,
-      "versionNonce": 236379177,
+      "version": 408,
+      "versionNonce": 940994982,
       "isDeleted": false,
       "id": "sx1KxZAYKxgViEJ-lDlEs",
       "fillStyle": "solid",
@@ -446,7 +446,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512720,
+      "updated": 1704670501983,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -457,12 +457,12 @@
       "containerId": null,
       "originalText": "Restricciones:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 444,
-      "versionNonce": 678631143,
+      "version": 445,
+      "versionNonce": 1342137274,
       "isDeleted": false,
       "id": "pbH7nh2gKLwp2BurTau5h",
       "fillStyle": "solid",
@@ -482,7 +482,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512720,
+      "updated": 1704670501985,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -493,12 +493,12 @@
       "containerId": null,
       "originalText": "El Lobo no puede quedarse solo con Caperucita en un lado sin la presencia del Observador.",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 458,
-      "versionNonce": 488337161,
+      "version": 459,
+      "versionNonce": 1021660390,
       "isDeleted": false,
       "id": "OXqogKYJx3VeEV5Sjo7tt",
       "fillStyle": "solid",
@@ -518,7 +518,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512720,
+      "updated": 1704670501987,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -529,12 +529,12 @@
       "containerId": null,
       "originalText": "Caperucita no puede estar sola con Uvas sin la presencia del Observador.",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 455,
-      "versionNonce": 1742578183,
+      "version": 456,
+      "versionNonce": 1754193018,
       "isDeleted": false,
       "id": "nFV9zpNQzG9bKJHez5hmr",
       "fillStyle": "solid",
@@ -554,7 +554,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512721,
+      "updated": 1704670501991,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -565,12 +565,12 @@
       "containerId": null,
       "originalText": "Cómo Jugar:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 466,
-      "versionNonce": 1204463081,
+      "version": 467,
+      "versionNonce": 1370931238,
       "isDeleted": false,
       "id": "P5-1tkG7ossHjao7QLG0X",
       "fillStyle": "solid",
@@ -590,7 +590,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512721,
+      "updated": 1704670501992,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -601,12 +601,12 @@
       "containerId": null,
       "originalText": "Inicio del Juego:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 576,
-      "versionNonce": 1812580647,
+      "version": 577,
+      "versionNonce": 1513176378,
       "isDeleted": false,
       "id": "NraW2zv_b2sBB5MCz5LKr",
       "fillStyle": "solid",
@@ -626,7 +626,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512722,
+      "updated": 1704670501995,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -637,12 +637,12 @@
       "containerId": null,
       "originalText": "Todos los personajes comienzan en un lado \ndel río.",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 42
     },
     {
       "type": "text",
-      "version": 626,
-      "versionNonce": 154140873,
+      "version": 627,
+      "versionNonce": 175623014,
       "isDeleted": false,
       "id": "IrTZKLlWU49kF3FbTTTiA",
       "fillStyle": "solid",
@@ -662,7 +662,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512722,
+      "updated": 1704670501997,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -673,12 +673,12 @@
       "containerId": null,
       "originalText": "En la canoa, al principio, solo se encuentra el Observador .",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 858,
-      "versionNonce": 1650723911,
+      "version": 859,
+      "versionNonce": 1380550138,
       "isDeleted": false,
       "id": "TAHgEPWYVzl1_B19S9QTY",
       "fillStyle": "solid",
@@ -698,7 +698,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512722,
+      "updated": 1704670501998,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -709,12 +709,12 @@
       "containerId": null,
       "originalText": "Turnos:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 906,
-      "versionNonce": 1860632489,
+      "version": 907,
+      "versionNonce": 1970630310,
       "isDeleted": false,
       "id": "vTqNs434odCzoERPc368D",
       "fillStyle": "solid",
@@ -734,7 +734,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512723,
+      "updated": 1704670501999,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -745,12 +745,12 @@
       "containerId": null,
       "originalText": "En tu turno, elige un personaje para subir a la canoa.",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 1003,
-      "versionNonce": 382266215,
+      "version": 1004,
+      "versionNonce": 1507505850,
       "isDeleted": false,
       "id": "l0oWU6prXqIGoGjasHQiY",
       "fillStyle": "solid",
@@ -770,7 +770,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512723,
+      "updated": 1704670502001,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -781,12 +781,12 @@
       "containerId": null,
       "originalText": "Presiona el número correspondiente al personaje en la consola \npara permitir que cruce al otro lado del río en la canoa.",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 42
     },
     {
       "type": "text",
-      "version": 544,
-      "versionNonce": 1192960649,
+      "version": 545,
+      "versionNonce": 1331472870,
       "isDeleted": false,
       "id": "PnN4TpK7wON4rTb4SSMoj",
       "fillStyle": "solid",
@@ -806,7 +806,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512723,
+      "updated": 1704670502003,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -817,12 +817,12 @@
       "containerId": null,
       "originalText": "Validación:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 541,
-      "versionNonce": 629466759,
+      "version": 542,
+      "versionNonce": 1636290426,
       "isDeleted": false,
       "id": "mIC7Ib9_Uaa3L8-ChQWx7",
       "fillStyle": "solid",
@@ -842,7 +842,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512724,
+      "updated": 1704670502004,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -853,12 +853,12 @@
       "containerId": null,
       "originalText": "El juego verificará automáticamente si la combinación seleccionada \ncumple con las reglas.",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 42
     },
     {
       "type": "text",
-      "version": 617,
-      "versionNonce": 243788137,
+      "version": 618,
+      "versionNonce": 926580006,
       "isDeleted": false,
       "id": "AbsepijlryY6CEPhREOqf",
       "fillStyle": "solid",
@@ -878,7 +878,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512724,
+      "updated": 1704670502006,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -889,12 +889,12 @@
       "containerId": null,
       "originalText": "Si es válido, los personajes se mueven al otro lado; de lo contrario, \nse mostrará un mensaje.",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 42
     },
     {
       "type": "text",
-      "version": 643,
-      "versionNonce": 1834253735,
+      "version": 644,
+      "versionNonce": 1301532730,
       "isDeleted": false,
       "id": "oVLnPoGIt_tKnxhjYoqxG",
       "fillStyle": "solid",
@@ -914,7 +914,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512724,
+      "updated": 1704670502006,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -925,12 +925,12 @@
       "containerId": null,
       "originalText": "Repetir:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 699,
-      "versionNonce": 511235145,
+      "version": 700,
+      "versionNonce": 1652287590,
       "isDeleted": false,
       "id": "WKY2qP8g5_RVoDoPv74ej",
       "fillStyle": "solid",
@@ -950,7 +950,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512725,
+      "updated": 1704670502007,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -961,12 +961,12 @@
       "containerId": null,
       "originalText": "Continúa moviendo personajes de un lado a otro hasta que todos \nhayan cruzado con éxito.",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 42
     },
     {
       "type": "text",
-      "version": 462,
-      "versionNonce": 1097085127,
+      "version": 463,
+      "versionNonce": 31570170,
       "isDeleted": false,
       "id": "SwpzfnimBXngC0X5f_sWy",
       "fillStyle": "solid",
@@ -986,7 +986,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512725,
+      "updated": 1704670502008,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -997,12 +997,12 @@
       "containerId": null,
       "originalText": "¡Buena suerte y disfruta del desafío de \"Cruce del Río\"!",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 163,
-      "versionNonce": 449405737,
+      "version": 164,
+      "versionNonce": 1357769638,
       "isDeleted": false,
       "id": "KsHczuu9M-vfbnUBSKYqr",
       "fillStyle": "solid",
@@ -1022,7 +1022,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512725,
+      "updated": 1704670502009,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -1033,12 +1033,12 @@
       "containerId": null,
       "originalText": "En nuestra aplicación, la canoa será representada de la siguiente manera:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 74,
-      "versionNonce": 1532002279,
+      "version": 75,
+      "versionNonce": 1844742586,
       "isDeleted": false,
       "id": "y32La1mvIdQoJrrwRO_cC",
       "fillStyle": "solid",
@@ -1058,7 +1058,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512725,
+      "updated": 1704670502010,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -1069,12 +1069,12 @@
       "containerId": null,
       "originalText": "Observador",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 152,
-      "versionNonce": 535107081,
+      "version": 153,
+      "versionNonce": 12420838,
       "isDeleted": false,
       "id": "-sCoXpo2TtZlUvgwq-s_P",
       "fillStyle": "solid",
@@ -1094,7 +1094,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512726,
+      "updated": 1704670502011,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -1105,12 +1105,12 @@
       "containerId": null,
       "originalText": "Lobo",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 79,
-      "versionNonce": 220588807,
+      "version": 80,
+      "versionNonce": 418333306,
       "isDeleted": false,
       "id": "EWVpCQjG9RogJnh_HxTy_",
       "fillStyle": "solid",
@@ -1130,7 +1130,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512726,
+      "updated": 1704670502012,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -1141,12 +1141,12 @@
       "containerId": null,
       "originalText": "Caperucita",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 78,
-      "versionNonce": 818375913,
+      "version": 79,
+      "versionNonce": 578271782,
       "isDeleted": false,
       "id": "waKHL-w5YyVv1L5-Y1WdH",
       "fillStyle": "solid",
@@ -1166,7 +1166,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512726,
+      "updated": 1704670502013,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -1177,12 +1177,12 @@
       "containerId": null,
       "originalText": "Uvas",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 427,
-      "versionNonce": 861991463,
+      "version": 428,
+      "versionNonce": 764732218,
       "isDeleted": false,
       "id": "lBniCdG0akTFpHS_45vd8",
       "fillStyle": "solid",
@@ -1202,7 +1202,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512726,
+      "updated": 1704670502013,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -1213,12 +1213,12 @@
       "containerId": null,
       "originalText": "Menú del juego:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 318,
-      "versionNonce": 1694230473,
+      "version": 319,
+      "versionNonce": 1292469606,
       "isDeleted": false,
       "id": "oFWh8Frq76cRsJV6zpy1-",
       "fillStyle": "solid",
@@ -1238,7 +1238,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1703545512727,
+      "updated": 1704670502014,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -1249,7 +1249,7 @@
       "containerId": null,
       "originalText": "La estructura del menú del juego se muestra a continuación:",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "line",

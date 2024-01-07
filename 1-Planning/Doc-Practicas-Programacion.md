@@ -54,4 +54,4 @@ Kenny Pinchao
 
 2. **Ramas de desarrollo:**
    - Se utilizará ramas aparte, en las que cada desarrollador podrá probar, arreglar o agregar aspectos de todo tipo al proyecto.
-   - Ejemplo: `dev-joel`.
+   - Ejemplo: `test-kenny`.
